@@ -40,5 +40,13 @@ for(i=0;i<10;i++)
 { setTimeout(print,1000);
 }				Output:10 will be printed 10times
 
-
+/*Use of IIVE*/
+var i;
+for(i=0;i<5;i++){
+(function(){
+	var x = i;
+	setTimeout(function(){
+	console.log(x)
+},1000)
+})(); }
 
