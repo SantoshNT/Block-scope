@@ -13,3 +13,20 @@ function globalFunction1() {
 function globalFunction2() {
   var innerVariable2 = 'Non-global variable 2';
 }
+
+LOOPING AND RECURSION
+/*looping using for loop*/
+for(let i=0;i<5;i++)
+{
+  console.log(i)
+}
+/*looping using recursion*/
+let x = 0;
+function recurse(){
+console.log(x);
+  x++;
+	  if(x<11){
+		  recurse();  
+  }
+}
+recurse();
