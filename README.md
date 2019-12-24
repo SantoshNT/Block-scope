@@ -11,7 +11,7 @@ function globalFunction1() {
 }
 
 function globalFunction2() {
-  var innerVariable2 = 'Non-global variable 2';
+  var innerVariable2 = 'Non-global variable two';
 }
 
 LOOPING AND RECURSION
