@@ -22,14 +22,14 @@ for(let i=0;i<5;i++)
 }
 /*looping using recursion*/
 let x = 0;
-function recurse(){
+function recursion(){
 console.log(x);
   x++;
 	  if(x<11){
-		  recurse();  
+		  recursion();  
   }
 }
-recurse();
+recursion();
 
 /* Closures in Async callbacks*/ 
 var i;
