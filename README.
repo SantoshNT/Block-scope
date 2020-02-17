@@ -30,7 +30,6 @@ console.log(x);
   }
 }
 recursion();
-
 /* Closures in Async callbacks*/ 
 var i;
 var print = function(){
