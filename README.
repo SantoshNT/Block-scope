@@ -47,4 +47,3 @@ for(i=0;i<5;i++){
 },1000)
 })(); }
 Immediately invoking function expression
-
