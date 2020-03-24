@@ -4,7 +4,6 @@ JavaScript has traditionally had two types of scope: global scope and function s
 
 Consider a code
 var globalVariable = 'This is global';
-
 function globalFunction1() {
   var innerVariable1 = 'Non-global variable 1';
 }
