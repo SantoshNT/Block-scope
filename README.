@@ -40,7 +40,7 @@ for(i=0;i<10;i++)
 var i;
 for(i=0;i<5;i++){
 (function(){
-	var x = i;
+var x = i;
 	setTimeout(function(){
 	console.log(x)
 },1000)
