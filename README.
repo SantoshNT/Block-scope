@@ -24,7 +24,7 @@ function recursion(){
 console.log(x);
   x++;
 	  if(x<11){
-		  recursion();  
+	  recursion();  
   }
 }
 recursion();
