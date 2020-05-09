@@ -7,7 +7,6 @@ var globalVariable = 'This is global';
 function globalFunction1() {
   var innerVariable1 = 'Non-global variable 1';
 }
-
 function globalFunction2() {
   var innerVariable2 = 'Non-global variable two';
 }
